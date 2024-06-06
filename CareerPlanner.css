@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.menuBar {
+    background-color: #616161;
+    color: black;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuBar a {
+    color: white;
+    background-color: black;
+    padding: 12px;
+    mask-border-width: 10px;
+    text-decoration: none;
+    margin: 0 200px;
+    font-size: large;
+    width: 100px;
+}
+.buttonHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttonHolder button{
+    color: white;
+    background-color: black;
+    margin: 40px;
+    padding: 30px 30px;
+    border-radius: 40px;
+    font-size: 30px;
+    height: 170px;
+    width: 600px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
